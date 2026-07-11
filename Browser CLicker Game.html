@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Score: <span id="score">0</span></h1>
+
+<button onclick="clickGame()">
+Click Me!
+</button>
+
+<script>
+let score=0;
+
+function clickGame(){
+  score++;
+  document.getElementById("score").innerText=score;
+}
+</script>
+
+</body>
+</html>
